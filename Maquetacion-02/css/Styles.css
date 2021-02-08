@@ -1,7 +1,3 @@
-body{
-    background: #cccccc;
-}
-
 /*Fuentes Personalizadas*/
 
 @font-face {
@@ -30,7 +26,63 @@ body{
 }
 
 /*Generales*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(../img/pattern.png)
+}
 
 .gear{
     font-family: "webSymbols";
+}
+
+.wrap{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+/*Estilops a la cabecera*/
+
+#header{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    font-family: "BebasNeue";
+    color: white;
+}
+
+#logo{
+    float: left;
+    width: 200px;
+    margin-top: 8px;
+    margin-left: 20px;
+    background-color: #37bcf9;
+    text-align: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 300ms;
+}
+
+#logo .gear{
+    display:block;
+    float: left;
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 26px;
+
+}
+
+#logo h3{
+    margin-right: 65px;
+    display: block;
+    font-size: 40px;
+    float: right;
+    font-size: 40px;
+    margin-top: 5px;
+    transition: all 300ms;
+
 }
