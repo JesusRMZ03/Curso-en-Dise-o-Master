@@ -343,3 +343,18 @@ aside h3:first-child{
     color: #156785;
     text-decoration: underline;
 }
+
+/*Redes sociales*/
+#social{
+    height: 185px;
+}
+
+#social a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
