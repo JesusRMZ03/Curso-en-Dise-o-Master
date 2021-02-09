@@ -434,3 +434,21 @@ aside h3:first-child{
     margin-bottom: 10px;
     font-size: 15px;
 }
+
+/*Boton de blog*/
+
+#blog{
+    height: 100px;
+    margin-top: 60px;
+    line-height: 100px;
+    text-align: center;
+}
+
+#blog a{
+    display: block; /*Nos sirve tambien para hacerlo clickclave toda la caja*/
+    font-family: "BebasNeue";
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: #00538c;
+    text-decoration: none;
+}
