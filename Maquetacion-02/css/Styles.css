@@ -86,3 +86,54 @@ body{
     transition: all 300ms;
 
 }
+
+#menu{
+    float:right;
+    height: 70px;
+    background: transparent;
+}
+
+#menu ul li {
+    font-size: 24px;
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+    letter-spacing: 1px;
+    line-height: 70px;
+}
+
+#menu ul li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    transition: all 300ms;
+}
+
+#menu ul li a:hover{
+    color: #37bcf9;
+    transform: scale(1.2,1.2);
+}
+
+/*Bannner*/
+
+#banner{
+    width: 95.6%;
+    height: 100px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 2px gray;
+    background: url("../img/bakbaner.png");
+    background-position: -200px -200px;
+    margin: 20px auto;
+}
+
+#banner h1{
+    color: white;
+    display: block;
+    width: 850px;
+    font-family: "BebasNeue";
+    font-size: 45px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 1px black;
+    margin: 27px auto; 
+    margin-left: 33%;
+}
