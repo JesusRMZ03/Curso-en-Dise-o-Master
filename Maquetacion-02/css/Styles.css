@@ -460,9 +460,10 @@ aside h3:first-child{
     height: 470px;
     background: black;
     color: white;
+    overflow: hidden;
 }
 
-#footer .wrap > div{
+#footer .wrap .menufooter > div{
     float: left;
     width: 320px;
     height: 370px;
