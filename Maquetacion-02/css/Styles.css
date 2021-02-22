@@ -182,7 +182,7 @@ body{
     0%{
         background-position: 0px 0px;
     }
-    100{
+    100%{
         background-position:-200px -200px;
     }
 }
@@ -605,6 +605,32 @@ aside h3:first-child{
     margin-top: 60px;
     line-height: 100px;
     text-align: center;
+    transition: all 1s;
+}
+
+#blog:hover{
+    background-color: #333;
+    border: 10px solid #37bcf9;
+    border-radius: 240px;
+    box-shadow: 0px 0px 10px gray;
+    animation: blink 10s infinite linear;
+}
+@keyframes blink{
+    0%{
+        border: 10px solid #37bcf9;
+    }
+    25%{
+        border: 10px solid green;
+    }
+    50%{
+        border: 10px solid yellow;
+    }
+    75%{
+        border: 10px solid white;
+    }
+    100%{
+        border: 10px solid #37bcf9;
+    }
 }
 
 #blog a{
@@ -614,8 +640,13 @@ aside h3:first-child{
     letter-spacing: 3px;
     color: #00538c;
     text-decoration: none;
+    transition: all 1s;
 }
 
+#blog:hover a{
+    text-shadow: 1px 1px 1px black,1px 2px 1px black,1px 3px 1px black, 1px 4px 1px black, 1px 5px 1px black;
+    color: white;
+}
 /*Footer*/
 
 #footer{
@@ -671,6 +702,13 @@ aside h3:first-child{
 #footer ul li a{
     display: block;
     height: 40px;
+    transition: all 300ms;
+}
+
+#footer ul li:hover a{
+    padding-left: 40px;
+    color: white;
+    width: 100%;
 }
 
 #footer iframe{
