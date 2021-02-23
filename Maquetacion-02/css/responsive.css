@@ -3,8 +3,46 @@
         width: 90%;
         margin: 0px auto;
     }
+
+    #banner h1{
+        font-size: 35px;
+        text-align: center;
+        margin: 33px auto;
+    }
+
     .card{
         width: 17%;
         margin: 1.4%;
     }
+
+    .card p{
+        display: block;
+        width: 90%;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    #articles{
+        width: 65%;
+    }
+
+    #articles article{
+       width: 97%; 
+    }
+
+    #footer .wrap .menufooter > div{
+        width: 24%;
+        margin: 4%;
+    }
+
+    #footer #browser img{
+        width: 15%;
+    }
+    #footer h5{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:1250px){
+
 }
