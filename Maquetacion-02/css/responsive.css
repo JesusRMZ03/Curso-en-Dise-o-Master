@@ -225,3 +225,71 @@
     }
 }
 
+@media (max-width:475px){
+
+    #logo{
+        float: left;
+    }
+
+    #header{
+        width: 100%;
+        height: 275px;
+        padding-top: 10px;
+    }
+
+    #menu{
+        clear: both;
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    #menu ul li{
+        width: 100%;
+        line-height: 52px;
+    }
+
+    #menu ul li a{
+        width: 100%;
+        line-height: 30px;
+    }
+
+    #menu ul li a:hover{
+        color: #37bcf9;
+        transform: scale(1,1);
+    }
+
+    #banner{
+        height: 85px;
+    }
+
+    #banner h1{
+        font-size: 18px;
+    }
+
+    .card .icon{
+        font-size: 35px;
+    }
+
+    .card:hover .icon{
+        font-size: 35px;
+    }
+
+    .card .category{
+        font-size: 13px;
+    }
+
+    #lateral input[type="text"]{
+        width: 85%;
+    }
+
+    #articles .data{
+        float: none;
+        margin: -10px;
+        border-radius: 0px;
+    }
+
+    #articles article h4{
+        margin-top: 20px;
+    }
+}
