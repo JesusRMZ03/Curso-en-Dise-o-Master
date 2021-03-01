@@ -98,3 +98,25 @@ $wrap: 900px;
     width: $caja / $wrap * 100%;
     margin: 10px;
 }
+
+//Condicionales-if
+h1{
+    @if $fondo-color == #ccc{
+        color: black;
+    } @else{
+        color: lightsalmon;
+    }
+}
+//Bucles //For
+$contador:1 ;
+
+@for $contador from 1 to 8{
+
+    .lista ul li:nth-child(#{$contador}){
+        color: orange;
+        font-size: $contador + 10px;
+    }
+}
+//Each
+
+//While
