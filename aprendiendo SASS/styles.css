@@ -26,4 +26,8 @@ h1 {
   font-size: 15px;
 }
 
+h1 {
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=styles.css.map */
