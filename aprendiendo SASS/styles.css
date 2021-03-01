@@ -1,0 +1,29 @@
+body {
+  background-color: #ccc;
+}
+
+h1 {
+  font-family: Arial, Helvetica;
+  color: red;
+}
+
+.caja {
+  border: 1px solid black;
+  width: 500px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+}
+.caja h1 {
+  color: blue;
+  font-family: Arial, Helvetica;
+}
+.caja p {
+  color: blueviolet;
+}
+.caja .info {
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=styles.css.map */
