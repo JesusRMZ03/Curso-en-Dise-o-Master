@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#layout{
+    display: flex;
+    
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.caja{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background: grey;
+    padding: 20px;
+    border: 4px solid #222;
+    margin: 10px;
+}
+
+.red{
+    background: red;
+}
+
+.green{
+    background: green;
+}
+
+.blue{
+    background: blue;
+}
+
+.orange{
+    background: orange;
+}
