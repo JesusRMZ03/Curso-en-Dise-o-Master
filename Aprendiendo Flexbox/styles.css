@@ -1,4 +1,6 @@
 body{
+
+
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -9,13 +11,17 @@ body{
     flex-wrap: wrap; --No se sobresalgan los contenidos*/
 
     flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
     
+    height: 600px;
     border: 3px solid black;
     padding: 5px;
 }
 
-.caja{
-    flex-grow: 1;
+.caja{  
+    /*flex-grow: 1;            ayuda a darle una mismo tamano a los divs*/
+    /*flex-basis: calc((100% / 3) - 68px);*/ 
 
     font-size: 20px;
     font-weight: bold;
@@ -28,18 +34,23 @@ body{
 }
 
 .red{
+    align-self: flex-start;
     background: red;
 }
 
 .green{
+    margin-top: 11%;
     background: green;
 }
 
 .blue{
+    align-self: center;
     background: blue;
 }
 
 .orange{
     /*order: 3;*/
+    /*flex-basis: 100%;*/
+    align-self: flex-end;
     background: orange;
 }
