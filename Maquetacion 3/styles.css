@@ -23,8 +23,9 @@
     flex-wrap: wrap;
     align-items: center;
 
-    height: 120px;
+    height: 140px;
     border-bottom: 1px solid rgba(225, 225, 226, 0.8);
+    margin-bottom: 20px;
 }
 
 .logo{
@@ -188,6 +189,22 @@
 #footer .info{
     flex-grow: 1;
     color: #444;
+}
+
+@media (max-width:1778px){
+    #header{
+        text-align: center;
+    }
+
+    #menu{
+        padding-bottom: 8px    ;
+    }
+
+    #menu > ul{
+        margin-top: 10px;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
 }
 
 @media (max-width:1334px){
