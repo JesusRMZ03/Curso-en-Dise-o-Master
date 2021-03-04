@@ -36,6 +36,11 @@
     color: black;
     text-shadow: 1px 1px 0px #ccc;
     text-transform: uppercase;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 35px;
 }
 
 .logo h1{
@@ -163,4 +168,24 @@
 #aside a:hover{
     background: #444;
     color: #eee;
+}
+
+#footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    height: 120px;
+    align-items: center;
+    border-top: 1px solid rgba(225, 225, 226, 0.8);
+}
+
+#footer .logo{
+    opacity: 0.5;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+#footer .info{
+    flex-grow: 1;
+    color: #444;
 }
