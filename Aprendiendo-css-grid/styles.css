@@ -6,7 +6,8 @@ body{
 .layout{
     /*Definir el contenedor*/
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 
     /*Espacio entre elementos grid*/
     grid-gap: 10px;
@@ -32,6 +33,14 @@ body{
 
 .layout .green{
     background: green;
+}
+
+.layout .blue{
+    background: blue;
+}
+
+.layout .purple{
+    background: purple;
 }
 
 .layout .yellow{
