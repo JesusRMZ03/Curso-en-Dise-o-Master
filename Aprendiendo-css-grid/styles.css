@@ -6,7 +6,7 @@ body{
 .layout{
     /*Definir el contenedor*/
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
 
     /*Espacio entre elementos grid*/
@@ -28,11 +28,16 @@ body{
 }
 
 .layout .red{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
     background: red;
 }
 
 .layout .green{
     background: green;
+    grid-row-start:2;
+    grid-row-end: 4;
 }
 
 .layout .blue{
@@ -41,12 +46,19 @@ body{
 
 .layout .purple{
     background: purple;
+
+    grid-column: 1 / 4;
 }
 
 .layout .yellow{
     background: yellow;
+
+    grid-column: 2 / 4;
 }
 
 .layout .pink{
     background: pink;
+
+    grid-row: 3 / 5;
+    grid-column: 2 / 4;
 }
