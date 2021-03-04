@@ -4,9 +4,17 @@ body{
 }
 
 .layout{
+    /*Definir el contenedor*/
     display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
 
+    /*Espacio entre elementos grid*/
+    grid-gap: 10px;
+
+    width: 1200px;
+    margin: 0px auto;
     border: 3px solid orangered;
+    padding: 10px;
 }
 
 .layout .caja{
