@@ -13,6 +13,8 @@ body{
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: 150px 70px 1fr 70px;
 
+    justify-content: center;
+
     width: 75%;
     height: 1000px;
     margin: 0px auto;
@@ -20,6 +22,10 @@ body{
 }
 
 #cabecera{
+    display: flex;/*Centrar el contenido de una caja*/
+    justify-content: center; /*Centrar el contenido de una caja*/
+    align-items: center;/*Centrar el contenido de una caja*/
+
     grid-column: 1 / 6;
 
     background: blue;
@@ -39,6 +45,7 @@ body{
     list-style: none;
     margin: 0px;
 }
+
 
 #contenido{
     grid-column: 1 / 5;
