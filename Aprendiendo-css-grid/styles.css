@@ -3,6 +3,48 @@ body{
     text-align: center;
 }
 
+#website{
+    width: 75%;
+    height: 100vh;
+    margin: 0px auto;
+    border: 1px solid #ccc;
+}
+
+#cabecera{
+    background: blue;
+    color: white;
+}
+
+#menu{
+    background: lightblue;
+    color: black;
+}
+
+#contenido{
+    background: #eee;
+}
+
+#contenido article{
+    background: #ccc;
+    border: 1px solid #555;
+}
+
+#lateral{
+    background: orange;
+    color: white;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+/*Ejercicios Pasados*/
 .layout{
     /*Definir el contenedor*/
     display: grid;
