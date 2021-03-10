@@ -59,7 +59,7 @@ body{
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-gap: 20px; /*Ayuda a seprar los elementos grid*/
     padding: 20px;
 
     background: #eee;
