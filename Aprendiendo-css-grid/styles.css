@@ -13,6 +13,11 @@ body{
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: 150px 70px 1fr 70px;
+    grid-template-areas: 
+        "cabecera cabecera cabecera cabecera cabecera"
+        "menu menu menu menu menu"
+        "contenido contenido contenido contenido lateral"
+        "pie pie pie pie pie";
 
     justify-content: center;
 
@@ -23,18 +28,19 @@ body{
 }
 
 #websiteAreas #cabecera{
+    grid-area: cabecera;
     display: flex;/*Centrar el contenido de una caja*/
     justify-content: center; /*Centrar el contenido de una caja*/
     align-items: center;/*Centrar el contenido de una caja*/
 
-    grid-column: 1 / 6;
+   
 
     background: blue;
     color: white;
 }
 
 #websiteAreas #menu{
-    grid-column: 1 / 6;
+   grid-area: menu;
 
     line-height: 70px;
     background: lightblue;
@@ -43,14 +49,14 @@ body{
 
 #websiteAreas #menu ul{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(9,1fr);
     list-style: none;
-    margin: 0px;
 }
 
 
 #websiteAreas #contenido{
-    grid-column: 1 / 5;
+    grid-area: contenido;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
@@ -65,14 +71,14 @@ body{
 }
 
 #websiteAreas #lateral{
-    grid-column: 5 / 6;
+    grid-area: lateral;
 
     background: orange;
     color: white;
 }
 
 #websiteAreas #footer{
-    grid-column: 1 / 6;
+    grid-area: pie;
 
     background-color: black;
     color: white;
