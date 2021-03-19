@@ -186,3 +186,59 @@
     margin-left: 140px;
     color: #444;
 }
+
+@media (max-width: 784px){
+    #header{
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 140px;
+
+        padding-bottom: 20px;
+    }
+
+    #header h1{
+        text-align: center;
+    }
+
+    #content{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: start;
+        justify-items: space-between;
+        grid-column-gap: auto;
+    }
+    
+    #projects{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+
+    }
+
+    .project{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    #aside{
+        margin-right: 0px;
+        padding: 15px;
+    }
+
+    #aside ul{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 10px;
+    }
+
+    #footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center !important;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
