@@ -168,6 +168,11 @@
 }
 
 #footer{
+    display: grid;
+    grid-template-columns: 1fr 25%;
+    align-items: center;
+    justify-content: start;
+
     height: 120px;
     align-items: center;
     border-top: 1px solid rgba(225, 225, 226, 0.8);
@@ -178,5 +183,6 @@
 }
 
 #footer .info{
+    margin-left: 140px;
     color: #444;
 }
